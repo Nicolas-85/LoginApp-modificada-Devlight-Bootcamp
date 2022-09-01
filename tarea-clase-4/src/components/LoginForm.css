@@ -1,0 +1,82 @@
+.totalContainer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #666666;
+    max-height: 550px;
+    max-width: 800px;
+    background-color: #FFFF;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.totalContainer h3 {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonsContainer button {
+    height: 45px;
+    width: 30%;
+    margin-right: 20px;
+    border: none;
+    border-style: outset;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #666666;
+}
+
+.fieldsContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+.fieldsContainer input {
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #FFFF;
+}
+
+.labelForgorPass {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.buttonLogin {
+    height: 50px;
+    background-color: #2148C0;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #FFFF;
+    color: #FFFF;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.buttonAlumnoActivo {
+    background-color: #2148C0;
+}
+.buttonProfesorActivo {
+    background-color: #2148C0;
+}
+
+.LoginFormError {
+    width: 100%;
+    color: red;
+    font-weight: 500;
+    font-size: 16px;
+
+}

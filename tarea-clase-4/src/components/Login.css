@@ -1,0 +1,13 @@
+.containerLogin{
+    background-color: #2148C0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginTitle{
+    font-family: 'inter';
+    color: #ffff;
+}

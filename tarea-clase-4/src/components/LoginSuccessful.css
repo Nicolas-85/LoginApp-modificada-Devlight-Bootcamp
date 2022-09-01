@@ -1,0 +1,14 @@
+.totalContainerSuccesfull{
+    background-color: #2148C0;
+}
+
+.successfulContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
